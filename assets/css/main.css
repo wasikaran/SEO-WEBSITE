@@ -65,6 +65,21 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
 }
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 100%;
+  overflow: hidden; /* Ensures image does not overflow its container */
+}
+
+.gallery-caption {
+  text-align: center;
+  margin-top: 10px; /* Adjusts space between image and caption */
+}
 
 a {
   color: var(--accent-color);
